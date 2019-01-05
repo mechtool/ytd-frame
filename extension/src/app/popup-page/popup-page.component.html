@@ -1,0 +1,15 @@
+<form  class="popup-form" [formGroup]="optionsGroup" (submit)="onSubmit()" novalidate>
+	<fieldset class="fieldSetCheckbox">
+		<legend>Загружать форматы</legend>
+		<div class="mat-container-checkBox">
+			<mat-checkbox [checked]="optionsGroup.value.mp4" formControlName="mp4" color="primary">Mp4</mat-checkbox>
+			<mat-checkbox [checked]="optionsGroup.value.webm" formControlName="webm" color="primary">Webm</mat-checkbox>
+			<mat-checkbox [checked]="optionsGroup.value['3gp']" formControlName="3gp" color="primary">3gp</mat-checkbox>
+			<mat-checkbox [checked]="optionsGroup.value.ts" formControlName="ts" color="primary">Ts</mat-checkbox>
+			<mat-checkbox [checked]="optionsGroup.value.flv" formControlName="flv" color="primary">Flv</mat-checkbox>
+		</div>
+		<button class="submit-button-popup mat-container-button" mat-raised-button color="primary">Сохранить</button>
+	</fieldset>
+</form>
+
+

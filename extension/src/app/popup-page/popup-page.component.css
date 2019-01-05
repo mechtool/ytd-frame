@@ -1,0 +1,22 @@
+form.popup-form{
+   font-family: "Oswald Light", sans-serif;
+    width: 240px;
+    margin: 8px;
+}
+fieldset{
+    color: #999999;
+    border-color: #ffffff;
+    font-size: 14px;
+}
+div.mat-container-checkBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.mat-container-checkBox mat-checkbox{
+    width: 70px;
+    margin-bottom: 4px;
+}
+.submit-button-popup{
+    margin-top: 4px;
+}

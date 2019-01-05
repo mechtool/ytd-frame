@@ -1,0 +1,51 @@
+div.container-iframe-downloader{
+    position: relative;
+    top: 6px;
+    left: 0;
+}
+iframe#extension-iframe{
+    position: absolute;
+    background: transparent;
+    z-index: 2;
+    width: 140px;
+    height: 0;
+    max-height: 264px;
+    margin-top: 4px;
+    border: 1px solid #dadada;
+    visibility: hidden;
+}
+iframe#extension-iframe.active{
+   visibility: visible;
+}
+button.download-button-iframe{
+    width: 36px;
+    border: 0;
+    height: 36px;
+    outline: none;
+    cursor: pointer;
+    background: #0030be;
+}
+button.download-button-iframe:hover{
+    background: #0056de;
+}
+button.download-button-iframe:hover:active{
+    background: #0064ff;
+}
+
+button.download-button-iframe.off-data{
+    background: #c2c2c2 !important;
+    cursor: not-allowed;
+}
+div.tool-tip-ext{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    font-size: 12px;
+    top: 0;
+    left: -85px;
+    padding: 11px;
+    visibility: hidden;
+}
+button.download-button-iframe:hover + div.tool-tip-ext{
+    visibility: visible;
+}

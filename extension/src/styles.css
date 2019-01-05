@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Oswald Light';
+    font-style: normal;
+    font-weight: 100;
+    src: url("chrome-extension://__MSG_@@extension_id__/assets/fonts/Oswald-Light.ttf");
+}
+body {
+    margin: 0;
+    font-family:"Oswald Light", Roboto, "Helvetica Neue", sans-serif;
+}
+*[class^=mat]{
+    font-family: "Oswald Light", Roboto, "Helvetica Neue", sans-serif !important;
+    font-size: 16px;
+}

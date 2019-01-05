@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Oswald Light';
+    font-style: normal;
+    font-weight: 300;
+    src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/Oswald-Light.ttf');
+}
+body{
+    background: #edf1cf;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 8px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b1b1b1;
+}
+a.format-element-ydl{
+    display: flex;
+    padding: 4px;
+    text-decoration: none;
+    height: 32px;
+    line-height: 32px;
+    font-family: "Oswald Light", sans-serif;
+    font-size: 14px;
+}
+a.format-element-ydl:hover{
+    background: #e3e3e3;
+}
